@@ -32,7 +32,7 @@ function ocultarAlerta(){
 }
 
 async function logout(nombreUsuario){
-    const url = 'http://localhost:8082/login/logout-async';
+    const url = 'http://localhost:8082/login/logout-async-feign';
     const data = {
         nombreUsuario: nombreUsuario
     };
